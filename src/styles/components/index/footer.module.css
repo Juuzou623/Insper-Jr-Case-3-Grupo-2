@@ -1,0 +1,34 @@
+.fundo{
+    position: absolute;
+    left: 0;
+    top: 400%;
+    width: 100%;
+    height: 20rem;
+    background-color: #3E3E3E;
+}
+.alinha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: min-content;
+}
+.logo{
+    width: 4vw;
+}
+.DuLar{
+    margin-left: 2vw;
+    font-size: 2rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    top: 420%;
+    left: 5vw;
+    width: 80%;
+    margin-right: 10%;
+    color: white;
+}

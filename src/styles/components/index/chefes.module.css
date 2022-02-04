@@ -1,0 +1,56 @@
+.geral{
+    top: 215%;
+    width: 74%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 13%;
+    text-align: center;
+    z-index: 2;
+}
+
+.fotos{
+    align-self: center;
+    justify-self: center;
+    margin: 0 15%;
+    height: 20rem;
+    width: auto;
+}
+
+.geral_fundo{
+    top: 250%;
+    width: 70%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 15%;
+    text-align: center;
+    z-index: 1;
+}
+
+.fundo{
+    background-color: #C2EAB0;
+    width: 15rem;
+    height: 23rem;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+
+.estrelas{
+    align-self: center;
+    width: 50%;
+    margin: 0 25%;
+}
+
+.nossos_chefes{
+    position: absolute;
+    top: 200%;
+    left: 8vw;
+}

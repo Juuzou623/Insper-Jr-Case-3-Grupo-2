@@ -1,0 +1,57 @@
+.geral{
+    position: absolute;
+    top: 120%;
+}
+
+.botoes{
+    margin-top: 5rem;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vw;
+}
+
+.botoes button{
+    width: 5rem;
+    border-radius: 50%;
+    border: #D7D7D5 solid 1px;
+    background-color: transparent;
+    padding: 0.5rem;
+    transition: color 1s ease, border-color 1s ease, transform 1s;
+    transform: translateX(0) scale(1); 
+}
+
+.botoes button:focus,
+.botoes button:active {
+  color: #F28518;
+  border-color: #F28518;
+  background-color: #F28518;
+  transition: color 1s ease, border-color 1s ease, transform 1s;
+  transform: translateX(0px) scale(1.5);
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.n_hidden{
+    visibility: visible;
+}
+.textos{
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7.5vw;
+    margin-top: 3rem;
+}
+.textos p{
+    text-align: center;
+}
+.geral h2{
+    position: absolute;
+    left: 5vw;
+}

@@ -1,0 +1,147 @@
+.voltar{
+    position: absolute;
+    width: 2vw;
+    top: 5%;
+    left: 5vw;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.list{
+    align-self: center;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.barra_progress{
+    margin: 0 15%;
+}
+.alinha{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.alinha h1{
+    margin-left: 32.5%;
+}
+
+.perguntas{
+    display: flex;
+    flex-direction: column;
+
+}
+.alinha_botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.alinha_botao2 button{
+    width: 7rem;
+    height: 7rem;
+    margin-top: 3.5rem;
+    background-color: #E8E8E8;
+    border: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: color 1s ease, border-color 1s ease;
+}
+
+.alinha_botao2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.alinha_botao2 button:focus,
+.alinha_botao2 button:hover,
+.alinha_botao2 button:active {
+color: #F28518;
+border-color: #F28518;
+background-color: #F28518;
+transition: color 1s ease, border-color 1s ease, transform 1s;
+}
+
+.alinha_botao_restr{
+    position: absolute;
+    margin-top: 2rem;
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 8%;
+}
+
+.alinha_botao_restr button{
+    width: 7rem;
+    height: 7rem;
+    margin-top: 3.5rem;
+    background-color: #E8E8E8;
+    border: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: color 1s ease, border-color 1s ease;
+}
+.alinha_botao_restr button:focus,
+.alinha_botao_restr button:hover,
+.alinha_botao_restr button:active {
+border-color: #F28518;
+background-color: #F28518;
+transition: color 1s ease, border-color 1s ease, transform 1s;
+}
+
+.text{
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.confirmar{
+    background-color: #F28518;
+    border-radius: 5px;
+    color: white;
+    border: transparent;
+    height: 2rem;
+    width: 7rem;
+    position: absolute;
+    right: 10%;
+    top: 230%;
+    font-weight: bold;
+}
+
+.input{
+    width: 20%;
+    margin-left: 7vw;
+}
+
+.circulo{
+    background-color: #F28518;
+    border-radius: 50%;
+    border: transparent;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-top: 0.5%;
+}
+.circulo2{
+    background-color: transparent;
+    border-radius: 50%;
+    border: solid #E8E8E8;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-top: 0.5%;
+}
+.alinha_circulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

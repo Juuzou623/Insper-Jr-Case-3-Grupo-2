@@ -1,0 +1,53 @@
+.main {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    right: 0%;
+    background-color: transparent;
+}
+
+.main div {
+    padding: 0 2vw;
+    font-size: 1.2rem;
+  }
+
+.logo{
+
+    width: 5vw;
+}
+
+.alinha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: min-content;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 2%;
+}
+.DuLar{
+    margin-left: 2vw;
+}
+
+.login{
+    background-color: #F28518;
+    border-radius: 5px;
+    width: 10%;
+    font-weight: bold;
+    border-color: transparent;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 50%);
+    color: white;
+    margin-top: 0.5%;
+    cursor: pointer;
+}

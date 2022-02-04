@@ -1,0 +1,36 @@
+.geral{
+    position: absolute;
+    top: 13rem;
+    left: 6vw;
+    width: 100%;
+}
+
+.geral h1{
+    font-size: 2.5rem;
+}
+
+.geral h3{
+    font-weight: lighter;
+    margin-top: 2rem;
+}
+
+.geral button{
+    background-color: #F28518;
+    border-radius: 5px;
+    width: 15vw;
+    height: 2rem;
+    font-weight: bold;
+    border-color: transparent;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 50%);
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.chef{
+    position: absolute;
+    top:-30%;
+    right: 5%;
+    margin-left: 40%;
+    width: 50%;
+}
